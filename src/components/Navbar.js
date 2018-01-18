@@ -7,21 +7,14 @@ class Navbar extends React.Component{
     super(props);
   }
 
-  state = { activeItem: 'home' }
-
-  handleItemClick = (e, { name }) => (
-    this.setState({ activeItem: name })
-
-  )
 
   render () {
-    const { activeItem } = this.state;
     return (
       <div className = "menu">
-      <Menu secondary>
-        <Menu.Item name='home' active={activeItem === 'home'} onClick={() => this.setState({ activeItem: "home" })} href="#title" />
-        <Menu.Item name='projects' active={activeItem === 'projects'} onClick={this.handleItemClick} href = "#projects"/>
-        <Menu.Item name='friends' active={activeItem === 'friends'} onClick={this.handleItemClick} />
+      <Menu primary>
+        <Menu.Item name='home' active={this.props.activeItem === 'home'} href="#title" />
+        <Menu.Item name='about' active={this.props.activeItem === 'about'} href = "#about"/>
+        <Menu.Item name='projets' active={this.props.activeItem === 'projects'} href = "#projects"/>
       </Menu>
       </div>
     )

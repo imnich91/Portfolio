@@ -1,3 +1,7 @@
+.artemis-title{
+  padding-right: 10%;
+}
+
 .home{
   background-color:white;
   margin-left:100px;
@@ -13,34 +17,181 @@
   position: fixed !important;
   background: #008080 !important;
   width: 100%;
+  z-index: 1;
 }
 
 
 .title-area{
-  background: #C63D0F;
+  background: url('../src/images/ian_views.jpg') no-repeat;
+  background-size:cover;
+  position:relative;
 
-  color: #fff;
+
+  color: #FFF;
   font-family: 'Fira Sans', sans-serif;
-  padding: 10% 20px;
+  padding-top: 26%;
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: center;
+  min-height: 600px;
 }
 
-.title-image{
-  position:static !important;
+.css-typing h1 {
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing h1:nth-child(1) {
+  width: 27.6em;
+  -webkit-animation: type 3s steps(40, end);
+  animation: type 3s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing h1:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
 }
 
 
-.project-area{
-  background: #FDF3E7;
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
 
-  color: #fff;
+.artemis-desc{
+  color: #59FFE8;
+  border-radius:25px;
+  background-color: #446770;
+  padding-top:22%;
+  padding-bottom: 24%;
+  margin-top:20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 15%;
+}
+
+
+
+
+.artemis-link{
+  color: #59FFE8;
+}
+.artemis-area{
+  background: #7672FE;
+  color: #AAFDF2;
   font-family: 'Fira Sans', sans-serif;
-  margin: 50px 0;
-  padding: 10% 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
+  position:relative;
+}
+
+.artemis-video{
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.forte-video{
+  padding-left: 5% !important;
+  padding-top: 3%;
+}
+
+.forte-area{
+  background: #B8AFA1;
+}
+
+.forte-description{
+  color: #59FFE8;
+  border-radius:25px;
+  background-color: #446770;
+  padding-top:22%;
+  padding-bottom: 24%;
+  margin-top:20%;
+  padding-left: 8%;
+  padding-right: 5%;
+  margin-right: 5%;
+}
+
+.forte-title{
+  padding-right: 30%;
+  padding-left: 30%;
+
 }
 
 .home-wrapper{
    margin-top: 40px; /* Add a top margin to avoid content overlay */
-   background:#585858;
+   background:#446770;
 }
