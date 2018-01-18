@@ -33,6 +33,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "moment": "^2.13.0",
+    "nuka-carousel": "^3.0.1",
     "ramda": "^0.25.0",
     "react": "^15.1.0",
     "react-addons-css-transition-group": "^15.5.2",
