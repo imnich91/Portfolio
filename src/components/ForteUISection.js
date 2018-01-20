@@ -13,9 +13,9 @@ class ForteUISection extends React.Component{
         <Grid.Column width  = {10} className = "forte-video">
           <h1 className = "forte-title">Forte UI - IMS Health</h1>
           <Carousel>
-            <img src="/src/images/UI home.png"/>
-            <img src="/src/images/Components.png"/>
-            <img src="/src/images/Calendar.png"/>
+            <img src="./images/UI home.png"/>
+            <img src="./images/Components.png"/>
+            <img src="./images/Calendar.png"/>
           </Carousel>
         </Grid.Column>
         <Grid.Column width = {6} >
