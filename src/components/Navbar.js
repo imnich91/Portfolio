@@ -14,7 +14,7 @@ class Navbar extends React.Component{
       <Menu primary>
         <Menu.Item name='home' active={this.props.activeItem === 'home'} href="#title" />
         <Menu.Item name='about' active={this.props.activeItem === 'about'} href = "#about"/>
-        <Menu.Item name='projets' active={this.props.activeItem === 'projects'} href = "#projects"/>
+        <Menu.Item name='projects' active={this.props.activeItem === 'projects'} href = "#projects"/>
       </Menu>
       </div>
     )

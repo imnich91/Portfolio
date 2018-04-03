@@ -19,11 +19,10 @@ class ArtemisSection extends React.Component{
         <Grid.Column width = {6} >
             <div className = "artemis-desc">
               <h3>
-                Worked on a team of four to develop an HTML5 game for one of my courses at UWT.
-                Role-playing game where Artemis has to save the princess from the evil dragon.
-                The game can be played here:
+                Worked on a team of four to develop an HTML5 game at the University of Washington.
+                Written primarily in JavaScript. 
               </h3>
-              <a className = "artemis-link" href = "https://imnich91.github.io/Legend-of-Artemis/" > https://imnich91.github.io/Legend-of-Artemis/ </a>
+              <a className = "artemis-link" href = "https://imnich91.github.io/Legend-of-Artemis/" > Play Legend of Artemis here! </a>
             </div>
         </Grid.Column>
       </Grid.Row>

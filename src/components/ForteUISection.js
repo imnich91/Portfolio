@@ -1,6 +1,6 @@
 import  Carousel  from 'nuka-carousel';
 import React from 'react';
-import {Button, Grid} from 'semantic-ui-react';
+import {Button, Grid, Image} from 'semantic-ui-react';
 
 class ForteUISection extends React.Component{
   constructor(props) {
@@ -21,9 +21,8 @@ class ForteUISection extends React.Component{
         <Grid.Column width = {6} >
             <div className = "forte-description">
               <h3>
-                Developed a UI that monitored and created jobs to migrate accounts to Amazon Redshift.
-                Created with React.js and used Redux to manage the state of the application.
-                Used HTTP requests to interact with a REST API to pull data from an RDS.
+                Front end UI created with React and Redux.
+                Used HTTP requests to populate data. 
               </h3>
             </div>
         </Grid.Column>
